@@ -21,6 +21,10 @@ SEO asset:
 
 - https://ert93333-ops.github.io/hreflang-qa-briefs/hreflang-qa-checklist.html
 
+Public checklist Gist:
+
+- https://gist.github.com/ert93333-ops/ea9061ff985754f2ffafaab70fbb4d08
+
 Validation status:
 
 - Static MVP.
