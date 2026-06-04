@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hreflang QA Checklist | Hreflang QA Briefs</title>
+    <meta
+      name="description"
+      content="A practical hreflang QA checklist for localized page launches: reciprocal links, self-references, canonical conflicts, x-default, URL format, and locale-code checks."
+    >
+    <link rel="canonical" href="https://ert93333-ops.github.io/hreflang-qa-briefs/hreflang-qa-checklist.html">
+    <meta property="og:title" content="Hreflang QA checklist">
+    <meta property="og:description" content="Check localized SEO tags before multilingual pages launch.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://ert93333-ops.github.io/hreflang-qa-briefs/hreflang-qa-checklist.html">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-product="Hreflang QA Briefs">
+    <header class="site-header is-scrolled">
+      <div class="shell header-inner">
+        <a class="brand" href="index.html" aria-label="Hreflang QA Briefs home">
+          <span class="brand-mark" aria-hidden="true">HL</span>
+          <span>Hreflang QA Briefs</span>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="index.html#workflow">Auditor</a>
+          <a href="index.html#pricing">Pricing</a>
+          <a href="index.html#waitlist">Early access</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article class="section article-page">
+        <div class="shell article-shell">
+          <p class="eyebrow">hreflang QA checklist</p>
+          <h1>Hreflang QA checklist before localized pages launch</h1>
+          <p class="hero-subtitle">
+            Use this checklist before multilingual or multi-market pages go live. It focuses on mistakes that can be caught
+            from pasted URL maps and HTML head snippets without crawling or Search Console access.
+          </p>
+
+          <section class="brief-section">
+            <h2>1. Confirm every localized group has all variants</h2>
+            <ul>
+              <li>List each page group, language or region code, localized URL, and canonical URL.</li>
+              <li>Include every intended language variant for the group.</li>
+              <li>Mark any neutral fallback URL as `x-default`.</li>
+            </ul>
+          </section>
+
+          <section class="brief-section">
+            <h2>2. Check self-referencing alternates</h2>
+            <ul>
+              <li>Each localized page should list itself as an alternate.</li>
+              <li>The self-reference should use the same absolute URL that the page serves.</li>
+              <li>Use one clear code per URL to avoid duplicate language assignments.</li>
+            </ul>
+          </section>
+
+          <section class="brief-section">
+            <h2>3. Check reciprocal links</h2>
+            <ul>
+              <li>If the English page lists the French page, the French page should list the English page back.</li>
+              <li>Repeat the check across every variant in the page group.</li>
+              <li>Do not rely on only a language selector or sitemap if page-level tags are incomplete.</li>
+            </ul>
+          </section>
+
+          <section class="brief-section">
+            <h2>4. Check canonical conflicts</h2>
+            <ul>
+              <li>A localized page should not accidentally canonicalize to another language page.</li>
+              <li>Review templates where all translated pages inherit the same canonical URL.</li>
+              <li>Keep deliberate consolidation documented so the launch team knows it is intentional.</li>
+            </ul>
+          </section>
+
+          <section class="brief-section">
+            <h2>5. Check URL and code hygiene</h2>
+            <ul>
+              <li>Use fully-qualified URLs in alternate and canonical tags.</li>
+              <li>Review invalid or inconsistent language and region codes.</li>
+              <li>Look for duplicate hreflang codes in the same snippet or page group.</li>
+            </ul>
+          </section>
+
+          <section class="brief-section">
+            <h2>6. Prepare the handoff</h2>
+            <ul>
+              <li>Summarize missing self-references, reciprocal gaps, canonical conflicts, invalid codes, and relative URLs.</li>
+              <li>Assign fixes to the SEO, content, or development owner before launch.</li>
+              <li>Retest the final templates or pasted snippets after fixes are applied.</li>
+            </ul>
+          </section>
+
+          <div class="hero-actions">
+            <a class="button primary" href="index.html#workflow">Run the sample hreflang audit</a>
+            <a class="button secondary" href="index.html#waitlist">Request early access</a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <span>Hreflang QA Briefs</span>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </footer>
+  </body>
+</html>
